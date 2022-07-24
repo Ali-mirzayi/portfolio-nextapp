@@ -1,0 +1,47 @@
+.container{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.container a {
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1rem;
+}
+
+.container a:hover {
+    background: rgba(0, 110, 50, 0.8);
+    color: #fff; 
+}
+
+@media screen and (min-width: 890px){
+    .sec{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem .8rem;
+      right:-1%;
+      transform: translateX(-40%);
+      bottom:20vh;
+      background: rgba(0, 65, 29, 0.8);
+      color: #fff; 
+    }
+    .container a {
+        padding: .8rem;
+    }
+  }

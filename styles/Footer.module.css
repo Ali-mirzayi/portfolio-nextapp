@@ -1,0 +1,21 @@
+.footer {
+  background-color: #16181a;
+  /* background-color:rgb(21, 41, 43); */
+  color: #20c997;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dev {
+  margin: auto 0;
+}
+
+.link {
+  margin: 0;
+  display: inline;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
