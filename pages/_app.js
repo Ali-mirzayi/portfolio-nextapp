@@ -25,7 +25,7 @@ function MyApp(props) {
     <meta name="title" content="Amin Khorasani">
     <title>Amin Khorasani</title>
     <meta name="description" content="محمد امین خراسانی هستم. یک 3D Artist، طراح دکوراسیون داخلی، طراح کابینت خود آموخته هستم. مدت زمان تحویل طراحی دکوراسیون داخلی و طراحی کابینت بستگی به متراژ و سبک کاری که میخواهید متغیر است. برای اطلاع از قیمت ها و مشاوره رایگان، میتوانید با من در شبکه های اجتماعی و شماره تماس های زیر در تماس باشید.">
-    <meta property="og:url" content="https://aminkhorasani.netlify.app">
+    <meta property="og:url" content="https://aminkhorasani.site">
     <meta property="og:title" content="Amin Khorasani" key="title">
     <meta property="og:description" content="سلام! من محمد امین خراسانی هستم. یک 3D Artist، طراح دکوراسیون داخلی و طراح کابینت هستم. خودآموز و مسلط به نرم افزارهای مربوطه می باشم. برای اطلاعات بیشتر، می توانید با من در شبکه های اجتماعی و شماره تماس های زیر در تماس باشید.">
     <meta name="keywords" content="امین خراسانی, amin khorasani, aminkhorasani , 3D Artist, طراح دکوراسیون داخلی, طراح کابینت">
