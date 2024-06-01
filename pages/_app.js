@@ -29,7 +29,7 @@ function MyApp(props) {
     <meta property="og:title" content="Amin Khorasani" key="title">
     <meta property="og:description" content="سلام! من محمد امین خراسانی هستم. یک 3D Artist، طراح دکوراسیون داخلی و طراح کابینت هستم. خودآموز و مسلط به نرم افزارهای مربوطه می باشم. برای اطلاعات بیشتر، می توانید با من در شبکه های اجتماعی و شماره تماس های زیر در تماس باشید.">
     <meta name="keywords" content="امین خراسانی, amin khorasani, aminkhorasani , 3D Artist, طراح دکوراسیون داخلی, طراح کابینت">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icon-192x192.png" />
+    <link rel="icon" type="image/png" href="/icon-192x192.png" />
     </Head>
       <CacheProvider value={emotionCache}>
         <ThemeProvider theme={isDarkTheme ? createTheme(darkTheme) : createTheme(lightTheme)}>
