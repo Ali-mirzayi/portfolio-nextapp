@@ -14,42 +14,6 @@ export default function Home({isDarkTheme}) {
   return (
    <Box sx={{backgroundColor: "background.superDark"}}>
     <div className={styles.container}>
-      <Head>
-        <link rel="icon" href="/icon-192x192.png" />
-      </Head>
-      <NextSeo 
-        title="Amin Khorasani"
-        description="محمد امین خراسانی هستم.طراح تری دی"
-        openGraph={{
-          url:'https://aminkhorasani.netlify.app',
-          title: 'محمد امین خراسانی',
-          description: 'محمد امین خراسانی هستم.طراح تری دی',
-          images:[
-            {
-              url:'https://aminkhorasani.netlify.app/_next/image?url=%2Fimg%2Fbff.jpg&w=256&q=75',
-              width:256,
-              height:379,
-              alt: 'AminKhorasani',
-              type: 'image/jpg',
-            },{
-              url:'https://aminkhorasani.netlify.app/_next/image?url=%2Fimg%2Ffolder6%2F1.jpg&w=1920&q=75',
-              width:1800,
-              height:1200,
-              alt: 'AminKhorasani',
-              type: 'image/jpg',
-            },{
-              url:'https://aminkhorasani.netlify.app/_next/image?url=%2Fimg%2Ffolder%2F2.jpg&w=1920&q=75',
-              width:1800,
-              height:1200,
-              alt: 'AminKhorasani',
-              type: 'image/jpg',
-            },
-            {url:"https://aminkhorasani.netlify.app/_next/image?url=%2Fimg%2Ffolder6%2F2.jpg&w=1920&q=75"},
-            {url:"https://aminkhorasani.netlify.app/_next/image?url=%2Fimg%2Ffolder2%2F1.jpg&w=1920&q=75"},
-          ],
-          site_name:'AminKhorasani'
-        }}
-        />
       <Intro />
       <AboutMe />
       <Box width='fit-content' margin='2rem auto'>
